@@ -1,0 +1,129 @@
+Module                  Size  Used by
+rfcomm                 81920  16
+cmac                   16384  3
+algif_hash             16384  1
+algif_skcipher         16384  1
+af_alg                 32768  6 algif_hash,algif_skcipher
+bnep                   28672  2
+binfmt_misc            24576  1
+zfs                  4112384  6
+zunicode              348160  1 zfs
+zzstd                 491520  1 zfs
+zlua                  163840  1 zfs
+zavl                   16384  1 zfs
+icp                   311296  1 zfs
+zcommon               106496  2 zfs,icp
+znvpair                98304  2 zfs,zcommon
+spl                   118784  6 zfs,icp,zzstd,znvpair,zcommon,zavl
+nls_iso8859_1          16384  2
+snd_hda_codec_realtek   163840  1
+snd_hda_codec_generic   102400  1 snd_hda_codec_realtek
+ledtrig_audio          16384  1 snd_hda_codec_generic
+snd_hda_codec_hdmi     77824  1
+snd_hda_intel          53248  3
+snd_intel_dspcfg       28672  1 snd_hda_intel
+snd_intel_sdw_acpi     20480  1 snd_intel_dspcfg
+uvcvideo              118784  0
+snd_hda_codec         163840  4 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec_realtek
+snd_usb_audio         368640  1
+videobuf2_vmalloc      20480  1 uvcvideo
+snd_hda_core          110592  5 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek
+snd_usbmidi_lib        45056  1 snd_usb_audio
+intel_rapl_msr         20480  0
+videobuf2_memops       20480  1 videobuf2_vmalloc
+snd_hwdep              16384  2 snd_usb_audio,snd_hda_codec
+rtl8188ee             159744  0
+videobuf2_v4l2         32768  1 uvcvideo
+intel_rapl_common      40960  1 intel_rapl_msr
+btusb                  61440  0
+snd_seq_midi           20480  0
+videobuf2_common       73728  4 videobuf2_vmalloc,videobuf2_v4l2,uvcvideo,videobuf2_memops
+snd_seq_midi_event     16384  1 snd_seq_midi
+btrtl                  24576  1 btusb
+rtl_pci                36864  1 rtl8188ee
+edac_mce_amd           36864  0
+snd_rawmidi            49152  2 snd_seq_midi,snd_usbmidi_lib
+btbcm                  24576  1 btusb
+videodev              258048  3 videobuf2_v4l2,uvcvideo,videobuf2_common
+rtlwifi               114688  2 rtl_pci,rtl8188ee
+btintel                40960  1 btusb
+snd_pcm               143360  5 snd_hda_codec_hdmi,snd_hda_intel,snd_usb_audio,snd_hda_codec,snd_hda_core
+snd_seq                77824  2 snd_seq_midi,snd_seq_midi_event
+mc                     65536  5 videodev,snd_usb_audio,videobuf2_v4l2,uvcvideo,videobuf2_common
+kvm_amd               155648  0
+mac80211             1257472  3 rtl_pci,rtl8188ee,rtlwifi
+bluetooth             671744  43 btrtl,btintel,btbcm,bnep,btusb,rfcomm
+snd_seq_device         16384  3 snd_seq,snd_seq_midi,snd_rawmidi
+snd_timer              40960  2 snd_seq,snd_pcm
+input_leds             16384  0
+joydev                 32768  0
+kvm                  1040384  1 kvm_amd
+cfg80211              974848  2 rtlwifi,mac80211
+ecdh_generic           16384  2 bluetooth
+ecc                    36864  1 ecdh_generic
+snd                   106496  21 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_usb_audio,snd_usbmidi_lib,snd_hda_codec,snd_hda_codec_realtek,snd_timer,snd_pcm,snd_rawmidi
+libarc4                16384  1 mac80211
+soundcore              16384  1 snd
+rapl                   20480  0
+ccp                   110592  1 kvm_amd
+k10temp                16384  0
+wmi_bmof               16384  0
+nvidia_uvm           1511424  0
+mac_hid                16384  0
+sch_fq_codel           20480  6
+msr                    16384  0
+parport_pc             49152  0
+ppdev                  24576  0
+lp                     28672  0
+parport                69632  3 parport_pc,lp,ppdev
+efi_pstore             16384  0
+ip_tables              32768  0
+x_tables               53248  1 ip_tables
+autofs4                49152  2
+btrfs                1564672  0
+blake2b_generic        20480  0
+xor                    24576  1 btrfs
+zstd_compress         229376  1 btrfs
+raid6_pq              122880  1 btrfs
+libcrc32c              16384  1 btrfs
+dm_mirror              24576  0
+dm_region_hash         24576  1 dm_mirror
+dm_log                 20480  2 dm_region_hash,dm_mirror
+nvidia_drm             77824  5
+nvidia_modeset       1306624  9 nvidia_drm
+nvidia              56807424  477 nvidia_uvm,nvidia_modeset
+hid_generic            16384  0
+drm_kms_helper        315392  1 nvidia_drm
+syscopyarea            16384  1 drm_kms_helper
+sysfillrect            20480  1 drm_kms_helper
+sysimgblt              16384  1 drm_kms_helper
+fb_sys_fops            16384  1 drm_kms_helper
+ucsi_ccg               20480  0
+cec                    65536  1 drm_kms_helper
+usbhid                 65536  0
+typec_ucsi             45056  1 ucsi_ccg
+rc_core                65536  1 cec
+uas                    28672  0
+hid                   151552  2 usbhid,hid_generic
+usb_storage            77824  2 uas
+crct10dif_pclmul       16384  1
+crc32_pclmul           16384  0
+typec                  69632  1 typec_ucsi
+ghash_clmulni_intel    16384  0
+sha256_ssse3           32768  0
+sha1_ssse3             32768  0
+aesni_intel           376832  4
+crypto_simd            16384  1 aesni_intel
+cryptd                 24576  3 crypto_simd,ghash_clmulni_intel
+drm                   622592  9 drm_kms_helper,nvidia,nvidia_drm
+r8169                 102400  0
+ahci                   49152  2
+xhci_pci               24576  0
+gpio_amdpt             20480  0
+i2c_piix4              32768  0
+i2c_nvidia_gpu         16384  0
+realtek                32768  1
+xhci_pci_renesas       20480  1 xhci_pci
+libahci                49152  1 ahci
+wmi                    32768  1 wmi_bmof
+gpio_generic           20480  1 gpio_amdpt

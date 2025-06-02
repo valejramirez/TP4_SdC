@@ -1,0 +1,26 @@
+filename:       /home/fernando/Documents/TP4-sdc-priv/part1/module/mimodulo.ko
+author:         Catedra de SdeC
+description:    Primer modulo ejemplo
+license:        GPL
+srcversion:     C6390D617B2101FB1B600A9
+depends:        
+retpoline:      Y
+name:           mimodulo
+vermagic:       5.15.0-140-generic SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         TP4 Module Key
+sig_key:        7D:AE:A7:F2:FA:80:66:43:1A:59:F6:A6:B3:6E:BB:50:BE:9A:FD:2A
+sig_hashalgo:   sha256
+signature:      1F:C5:7A:E1:FD:8F:C6:60:25:46:7C:69:DF:85:F5:75:EF:A9:08:07:
+		32:3F:C5:C9:5A:51:C3:83:7E:8D:8F:49:5B:F4:4F:58:4D:1D:EC:4D:
+		DA:5F:00:7B:3E:51:02:87:9E:27:7D:AB:A4:27:2B:47:D8:60:5C:53:
+		08:E5:B6:A9:11:B8:10:C0:EB:FE:32:9B:2F:F9:15:07:0A:32:C1:84:
+		9C:5C:8D:64:0D:E8:8C:0A:5D:83:A4:A0:0B:AD:74:6F:E1:92:FE:39:
+		7C:06:B9:76:F5:0D:BD:AA:01:05:4C:81:2E:41:D6:46:E3:2E:67:19:
+		B5:22:D0:6D:F8:1E:60:6C:01:4A:3E:C9:9A:69:05:8E:00:D7:15:CC:
+		C6:4F:A0:D9:44:26:80:99:2B:6D:34:6D:04:F5:DF:D0:51:C7:11:7F:
+		9C:3A:A3:79:97:D9:E2:DD:89:10:E0:D1:58:9E:77:2A:E8:E3:37:A6:
+		07:E5:50:4A:54:D9:94:69:08:0B:50:8E:7B:2A:0F:74:68:6E:FE:22:
+		41:B6:51:75:FF:F6:CA:9B:F1:48:87:CF:AE:83:A7:69:CD:5D:2C:BB:
+		52:63:58:8D:7D:13:34:03:72:CE:B5:35:30:B4:58:32:66:48:76:85:
+		40:BE:A4:1B:B4:27:3C:C6:59:DD:85:03:14:C9:CD:0D
