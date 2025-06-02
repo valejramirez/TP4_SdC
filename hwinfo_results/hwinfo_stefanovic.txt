@@ -1,0 +1,115 @@
+cpu:
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1550 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1550 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1741 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1550 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1550 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1550 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1550 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 3200 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1550 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1550 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1550 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1550 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1550 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1584 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1550 MHz
+                       AMD Ryzen 7 2700 Eight-Core Processor, 1550 MHz
+keyboard:
+  /dev/input/event4    SINO WEALTH Gaming KB
+mouse:
+  /dev/input/mice      Logitech G502 HERO Gaming Mouse
+  /dev/input/mice      SINO WEALTH Gaming KB
+monitor:
+                       LG ELECTRONICS LG FULL HD
+                       LCD-24XH8**
+graphics card:
+                       nVidia TU106 [GeForce RTX 2060 SUPER]
+sound:
+                       nVidia TU106 High Definition Audio Controller
+                       AMD Family 17h (Models 00h-0fh) HD Audio Controller
+storage:
+                       AMD 400 Series Chipset SATA Controller
+                       AMD FCH SATA Controller [AHCI mode]
+network:
+  enp37s0              Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+  wlp39s0              Realtek RTL8188EE Wireless Network Adapter
+network interface:
+  enp37s0              Ethernet network interface
+  wlp39s0              Ethernet network interface
+  lo                   Loopback network interface
+disk:
+  /dev/sdd             USB SanDisk 3.2Gen1
+  /dev/sdb             ST2000DM008-2FR1
+  /dev/sdc             KINGSTON SA400S3
+  /dev/sda             WDC WDS240G2G0A-
+partition:
+  /dev/sdd1            Partition
+  /dev/sdb1            Partition
+  /dev/sdb2            Partition
+  /dev/sdc1            Partition
+  /dev/sdc2            Partition
+  /dev/sdc3            Partition
+  /dev/sda1            Partition
+  /dev/sda2            Partition
+usb controller:
+                       AMD 400 Series Chipset USB 3.1 XHCI Controller
+                       AMD Zeppelin USB 3.0 Host controller
+                       nVidia TU106 USB 3.1 Host Controller
+bios:
+                       BIOS
+bridge:
+                       AMD Family 17h (Models 00h-0fh) PCIe GPP Bridge
+                       AMD 400 Series Chipset PCIe Port
+                       AMD Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+                       AMD Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3
+                       AMD Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
+                       AMD Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+                       AMD 400 Series Chipset PCIe Port
+                       AMD Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+                       AMD FCH LPC Bridge
+                       AMD Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+                       AMD Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6
+                       AMD Family 17h (Models 00h-0fh) Root Complex
+                       AMD Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+                       AMD 400 Series Chipset PCIe Port
+                       AMD Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4
+                       AMD Family 17h (Models 00h-0fh) PCIe GPP Bridge
+                       AMD Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+                       AMD Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
+                       AMD Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
+                       AMD 400 Series Chipset PCIe Port
+                       AMD Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+                       AMD 400 Series Chipset PCIe Port
+                       AMD Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+                       AMD Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7
+                       AMD 400 Series Chipset PCIe Port
+                       AMD 400 Series Chipset PCIe Bridge
+                       AMD Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5
+hub:
+                       Linux Foundation 3.0 root hub
+                       Linux Foundation 2.0 root hub
+                       Linux Foundation 3.0 root hub
+                       Linux Foundation 2.0 root hub
+                       Linux Foundation 2.0 root hub
+                       Linux Foundation 3.0 root hub
+                       Terminus USB 2.0 Hub
+memory:
+                       Main Memory
+bluetooth:
+                       Cambridge Silicon Radio Bluetooth Dongle (HCI mode)
+unknown:
+                       FPU
+                       DMA controller
+                       PIC
+                       Keyboard controller
+                       PS/2 Controller
+                       AMD Family 17h (Models 00h-0fh) I/O Memory Management Unit
+                       AMD Zeppelin/Renoir PCIe Dummy Function
+                       AMD Family 17h (Models 00h-0fh) Platform Security Processor
+                       AMD Zeppelin/Raven/Raven2 PCIe Dummy Function
+                       AMD FCH SMBus Controller
+                       nVidia TU106 USB Type-C UCSI Controller
+  /dev/ttyS0           16550A
+                       Logitech C922 Pro Stream Webcam
+  /dev/input/event3    Logitech G502 HERO Gaming Mouse
